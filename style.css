@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+#nav{
+    margin-top: 0px;
+    font-family: sans-serif;
+   /* padding:30px; */
+    gap:1px;
+    display:flex;
+    justify-content: flex-end;
+    height:20%;
+    width:100%;
+   
+}
+#chacha{
+    display: flex;
+}
+#txt p{
+    margin-left:100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    line-height:69px;}
+#extra{    
+     height:30%; 
+    width:30%; 
+    /* display:inline-block; */
+justify-content: space-between;
+    
+
+    }
+    #txt 
+ #bio{
+line-height: 25px; 
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+        height:10%;
+        width:80%;
+       /* margin-left:100px; */
+       margin-top:40px;
+        
+ }
+    #other{
+        display:flex;
+    }
+    
+       
+    #extra h5{
+        display: inline-block;
+        width:250px;
+        padding:20px;
+        border-top:2px solid black;
+        font-size: 20px;
+        font-weight: 50;
+        line-height: 10px;;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+   img{
+    
+    
+   }
+   #image{
+    /* display:inline-block; */
+    
+    background-position: cover;
+    grid-column: 1 / 4;
+
+   }
+   .ri-arrow-right-up-line{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+   }
+   #extra h5:hover+i{
+    opacity: 100%;
+   }
+   #extra h5:hover{
+    
+cursor:pointer;
+opacity:1;
+text-transform: uppercase;
+   }
+   #image{
+    margin-top:0px;
+    width:50%;
+    margin-left:10%
+   }
+   h5, i{
+    /* display: inline-block; */
+   }
+   i{
+    font-size: 20px;
+   }
+   .ri-shopping-bag-fill{
+    display:flex;
+    margin-top:0px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+height:30px;
+width:30px;
+background-color: black;
+color:white;
+margin:26px;
+
+   }
+   #nav h3{
+   padding:30px;
+
+   }
+   #extra{
+    margin-top:350px;
+   }
+   #image{
+    margin-left:10%;
+   }
